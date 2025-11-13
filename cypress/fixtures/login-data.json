@@ -1,0 +1,34 @@
+{
+  "validUser": {
+    "username": "student",
+    "password": "Password123"
+  },
+  "invalidCredentials": [
+    {
+      "testCase": "usuario inválido",
+      "username": "invalidUser",
+      "password": "Password123",
+      "expectedError": "Your username is invalid!"
+    },
+    {
+      "testCase": "contraseña inválida",
+      "username": "student",
+      "password": "wrongPassword",
+      "expectedError": "Your password is invalid!"
+    },
+    {
+      "testCase": "ambos inválidos",
+      "username": "wrongUser",
+      "password": "wrongPass",
+      "expectedError": "Your username is invalid!"
+    },
+    {
+      "testCase": "campos vacíos",
+      "username": "",
+      "password": "",
+      "expectedError": "Your username is invalid!"
+    }
+  ],
+  "successMessage": "Logged In Successfully",
+  "logoutMessage": "Logged Out"
+}

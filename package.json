@@ -1,0 +1,31 @@
+{
+  "name": "cypress-login-tests",
+  "version": "1.0.0",
+  "description": "Proyecto E2E con Cypress y TypeScript para pruebas de formulario de login",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "cy:open": "cypress open",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "testing",
+    "automation",
+    "login",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "cypress": "^14.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.8.4"
+  }
+}
