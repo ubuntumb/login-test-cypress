@@ -9,8 +9,7 @@
     "test:chrome": "cypress run --browser chrome",
     "test:firefox": "cypress run --browser firefox",
     "test:edge": "cypress run --browser edge",
-    "cy:open": "cypress open",
-    "type-check": "tsc --noEmit"
+    "cy:open": "cypress open"
   },
   "keywords": [
     "cypress",

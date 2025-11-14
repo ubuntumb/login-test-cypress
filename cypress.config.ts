@@ -9,6 +9,7 @@ export default defineConfig({
     screenshotOnRunFailure: true,
     defaultCommandTimeout: 10000,
     experimentalStudio: true,
+    experimentalRunAllSpecs:true,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

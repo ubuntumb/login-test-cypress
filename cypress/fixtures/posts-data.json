@@ -1,0 +1,31 @@
+{
+  "newPost": {
+    "title": "Test Post Title",
+    "body": "This is a test post body created for automated testing",
+    "userId": 1
+  },
+  "updatePost": {
+    "title": "Updated Post Title",
+    "body": "This post has been updated through automated testing",
+    "userId": 1
+  },
+  "patchPost": {
+    "title": "Patched Post Title"
+  },
+  "expectedPostStructure": {
+    "userId": "number",
+    "id": "number",
+    "title": "string",
+    "body": "string"
+  },
+  "expectedCommentStructure": {
+    "postId": "number",
+    "id": "number",
+    "name": "string",
+    "email": "string",
+    "body": "string"
+  },
+  "validPostId": 1,
+  "invalidPostId": 99999,
+  "baseUrl": "https://jsonplaceholder.typicode.com"
+}
